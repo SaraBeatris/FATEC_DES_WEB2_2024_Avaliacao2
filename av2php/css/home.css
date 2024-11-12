@@ -1,0 +1,85 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #333;
+    background-image: url('fatec.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+h1 {
+    color: #af4f4c;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+a {
+    display: block;
+    font-size: 18px;
+    color: #af4f4c;
+    text-decoration: none;
+    margin: 15px 0;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a:hover {
+    background-color: #f0d0d0;
+    transform: translateY(-3px);
+}
+
+a:active {
+    transform: translateY(1px);
+}
+
+.logout {
+    color: #d9534f;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.logout:hover {
+    text-decoration: underline;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button-container a {
+    font-size: 20px;
+    padding: 14px 28px;
+    border-radius: 50px;
+    background-color: #af4f4c;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.button-container a:hover {
+    background-color: #933a37;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+}
